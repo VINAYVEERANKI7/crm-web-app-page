@@ -1,0 +1,40 @@
+.navbar-main-container {
+  position: sticky;
+  top: 0;
+  font-family: "Raleway", sans-serif;
+  font-weight: 500;
+  color: #464646;
+  z-index: 5555;
+  background-color: #fff;
+}
+.navbar-logo {
+  width: 9vw;
+}
+.navbar-sub-container {
+  width: 100%;
+  max-width: 88vw;
+}
+.navbar-active-item {
+  font-weight: 700;
+  border-bottom: 0.5vh solid #1699f8;
+}
+.nav-fonts {
+  font-size: 1vw;
+}
+/* ----------------------- */
+.main-test-contaner {
+  height: 90.8vh;
+  font-family: "Raleway", sans-serif;
+}
+.test-hero-image {
+  width: 54vw;
+}
+.test-hero-sub {
+  width: 46vw;
+  padding-top: 2.5vw;
+  padding-left: 4vw;
+}
+.rider_test_button {
+  width: 100%;
+  max-width: 11vw;
+}

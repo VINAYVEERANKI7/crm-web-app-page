@@ -1,0 +1,41 @@
+.driver-main-container {
+  /* height: 100vh; */
+  font-family: "Raleway", sans-serif;
+  max-width: 85%;
+}
+.driver-hero-container {
+  max-width: 57rem;
+}
+.driver-active-btn {
+  background-color: #1699f8;
+  color: white;
+  border: none;
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
+  border-bottom: 2px solid #1699f8;
+}
+.driver-inactive-btn {
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 3px solid #f0f0f0;
+}
+.driver-service-container {
+  /* max-width: 105rem; */
+  font-family: "Raleway", sans-serif;
+}
+@media only screen and (max-width: 1600px) {
+  .driver-image {
+    width: 100%;
+  }
+}
+@media only screen and (max-width: 1200px) {
+  .driver-image {
+    width: 50%;
+  }
+}
+@media only screen and (max-width: 576px) {
+  .driver-image {
+    width: 80%;
+  }
+}

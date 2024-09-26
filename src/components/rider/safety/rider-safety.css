@@ -1,0 +1,17 @@
+.rider-safety-main-container {
+  font-family: "Raleway", sans-serif;
+}
+
+.safety-component-container {
+  max-width: 65rem;
+}
+
+.safety-logo {
+  height: 11rem;
+}
+
+@media only screen and (max-width: 576px) {
+  .safety-logo {
+    height: 6rem;
+  }
+}

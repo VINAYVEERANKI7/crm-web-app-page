@@ -1,0 +1,47 @@
+.navbar-main-container {
+  height: 5.5rem;
+  position: sticky;
+  top: 0;
+  font-family: "Raleway", sans-serif;
+  font-weight: 500;
+  color: #464646;
+  background-color: #ffff;
+  z-index: 555;
+}
+.navbar-sub-container {
+  width: 100%;
+  max-width: 88%;
+}
+.navbar-logo {
+  height: 3.5rem;
+}
+.navbar-active-item {
+  font-weight: 700;
+  border-bottom: 3px solid #1699f8;
+}
+.navbar-menu {
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  border: none;
+  background-color: #fff;
+}
+
+@media only screen and (max-width: 1400px) {
+  .navbar-sub-container {
+    width: 100%;
+    max-width: 95%;
+  }
+}
+@media only screen and (max-width: 1200px) {
+  .navbar-sub-container {
+    width: 100%;
+    max-width: 98%;
+  }
+}
+@media only screen and (max-width: 576px) {
+  .navbar-main-container {
+    height: 3.5rem;
+  }
+  .navbar-logo {
+    height: 2.5rem;
+  }
+}

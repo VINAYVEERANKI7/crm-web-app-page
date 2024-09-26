@@ -1,0 +1,28 @@
+.how-it-works-main-container {
+  background-color: #eceef0;
+  /* height: 90vh; */
+  font-family: "Raleway", sans-serif;
+}
+.how-it-works-sub-text {
+  color: #5f5f5f;
+}
+
+.how-it-works-card {
+  background-color: #ffffff;
+  width: 400px;
+  height: 30rem;
+}
+.how-it-works-card-text {
+  font-family: "Roboto", sans-serif;
+  color: #9e9e9e;
+}
+@media only screen and (max-width: 992px) {
+  .how-it-works-main-container {
+    height: 100%;
+  }
+  .how-it-works-card {
+    background-color: #ffffff;
+    /* max-width: 100%; */
+    height: auto;
+  }
+}

@@ -1,0 +1,62 @@
+.rider-main-container {
+  /* height: 100vh; */
+  font-family: "Raleway", sans-serif;
+}
+
+.rider-hero-container {
+  max-width: 57rem;
+}
+
+.rider-list {
+  font-family: "Roboto", sans-serif;
+}
+
+.rider-feature-text {
+  font-family: "Roboto", sans-serif;
+}
+
+.rider-active-btn {
+  background-color: #0f203c;
+  color: white;
+  border: none;
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
+  border-bottom: 2px solid #0f203c;
+}
+
+.rider-inactive-btn {
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 3px solid #f0f0f0;
+}
+
+.our-service-container {
+  font-family: "Raleway", sans-serif;
+}
+
+@media only screen and (max-width: 1600px) {
+  .rider-image {
+    width: 75%;
+  }
+}
+
+@media only screen and (max-width: 1400px) {
+  .rider-main-container {
+    height: 100%;
+  }
+
+  .rider-image {
+    width: 80%;
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  .list-marker {
+    height: 20px;
+  }
+
+  .download-btn {
+    width: 100%;
+  }
+}

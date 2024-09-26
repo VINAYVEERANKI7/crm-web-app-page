@@ -1,0 +1,25 @@
+.our-service-component-container {
+  font-family: "Raleway", sans-serif;
+  max-width: 81rem;
+}
+
+.service-logo {
+  height: 11rem;
+}
+
+.service-text-descrition {
+  color: #464646;
+}
+
+.trip-card {
+  border: 1px solid #f0f0f0;
+}
+
+@media only screen and (max-width: 576px) {
+  .service-logo {
+    height: 6rem;
+  }
+  .trip-image {
+    width: 40px;
+  }
+}

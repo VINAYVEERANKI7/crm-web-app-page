@@ -1,0 +1,59 @@
+.help-main-container {
+  height: 92vh;
+  font-family: "Raleway", sans-serif;
+}
+.help-support-container {
+  max-width: 84%;
+}
+.input-field {
+  background-color: #f2f2f2;
+  border: none;
+  max-width: 550px;
+  font-size: 18px;
+}
+.input-field::placeholder {
+  color: #7f7f7f;
+  font-size: 18px;
+}
+.input-field:focus-visible {
+  outline: none;
+}
+.mobile-container {
+  max-width: 550px;
+}
+.country-code-container {
+  background-color: #f2f2f2;
+  border: none;
+  font-size: 18px;
+}
+@media only screen and (max-width: 1400px) {
+  .help-support-container {
+    max-width: 100%;
+  }
+  .support-image {
+    width: 370px;
+  }
+}
+@media only screen and (max-width: 1200px) {
+  .help-main-container {
+    height: fit-content;
+  }
+  .input-field {
+    max-width: 100%;
+    font-size: 18px;
+  }
+  .mobile-container {
+    max-width: 100%;
+  }
+}
+@media only screen and (max-width: 576px) {
+  .input-field {
+    font-size: 16px;
+  }
+  .country-code-container {
+    font-size: 14px;
+  }
+  .input-field::placeholder {
+    font-size: 16px;
+  }
+}

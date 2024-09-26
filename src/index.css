@@ -1,0 +1,759 @@
+:root {
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  line-height: 1.5;
+  font-weight: 400;
+  height: 100vh;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+::-webkit-scrollbar {
+  width: 7px;
+  height: 7px;
+  cursor: pointer;
+  /* display: none; */
+}
+
+::-webkit-scrollbar-track :hover {
+  background: #f1f1f1;
+  cursor: pointer;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #1699f8;
+  cursor: pointer;
+}
+
+.roboto {
+  font-family: "Roboto", sans-serif;
+}
+
+.raleway {
+  font-family: "Raleway", sans-serif;
+}
+
+.cursor_pointer {
+  cursor: pointer;
+}
+
+.primary_color {
+  color: #0f203c;
+}
+
+.secondary_color {
+  color: #1699f8;
+}
+
+.primary_bg {
+  background-color: #0f203c;
+}
+
+.secondary_bg {
+  background-color: #1699f8;
+}
+
+.color_07003BBF {
+  color: #07003bbf;
+}
+
+.color_9e9e9e {
+  color: #9e9e9e;
+}
+
+.color_464646 {
+  color: #464646;
+}
+
+.color_727272 {
+  color: #727272;
+}
+
+.fw_300 {
+  font-weight: 300;
+}
+
+.fw_400 {
+  font-weight: 400;
+}
+
+.fw_500 {
+  font-weight: 500;
+}
+
+.fw_600 {
+  font-weight: 600;
+}
+
+.fw_700 {
+  font-weight: 700;
+}
+
+.fw_800 {
+  font-weight: 800;
+}
+
+.fw_900 {
+  font-weight: 900;
+}
+
+.fs_10 {
+  font-size: 10px;
+}
+
+.fs_11 {
+  font-size: 11px;
+}
+
+.fs_12 {
+  font-size: 12px;
+}
+
+.fs_13 {
+  font-size: 13px;
+}
+
+.fs_14 {
+  font-size: 14px;
+}
+
+.fs_15 {
+  font-size: 15px;
+}
+
+.fs_16 {
+  font-size: 16px;
+}
+
+.fs_17 {
+  font-size: 17px;
+}
+
+.fs_18 {
+  font-size: 18px;
+}
+
+.fs_19 {
+  font-size: 19px;
+}
+
+.fs_20 {
+  font-size: 20px;
+}
+
+.fs_21 {
+  font-size: 21px;
+}
+
+.fs_22 {
+  font-size: 22px;
+}
+
+.fs_23 {
+  font-size: 23px;
+}
+
+.fs_24 {
+  font-size: 24px;
+}
+
+.fs_25 {
+  font-size: 25px;
+}
+
+.fs_26 {
+  font-size: 26px;
+}
+
+.fs_27 {
+  font-size: 27px;
+}
+
+.fs_28 {
+  font-size: 28px;
+}
+
+.fs_29 {
+  font-size: 29px;
+}
+
+.fs_30 {
+  font-size: 30px;
+}
+
+.fs_31 {
+  font-size: 31px;
+}
+
+.fs_32 {
+  font-size: 32px;
+}
+
+.fs_33 {
+  font-size: 33px;
+}
+
+.fs_34 {
+  font-size: 34px;
+}
+
+.fs_35 {
+  font-size: 35px;
+}
+
+.fs_36 {
+  font-size: 36px;
+}
+
+.fs_38 {
+  font-size: 38px;
+}
+
+.fs_40 {
+  font-size: 40px;
+}
+
+.fs_46 {
+  font-size: 46px;
+}
+
+.fs_48 {
+  font-size: 48px;
+}
+
+.fs_68 {
+  font-size: 68px;
+}
+
+@media only screen and (max-width: 1560px) {
+  .fs_xxl_55 {
+    font-size: 55px;
+  }
+
+  .fs_xxl_20 {
+    font-size: 20px;
+  }
+}
+
+@media only screen and (max-width: 1400px) {
+  .fs_xl_10 {
+    font-size: 10px;
+  }
+
+  .fs_xl_11 {
+    font-size: 11px;
+  }
+
+  .fs_xl_12 {
+    font-size: 12px;
+  }
+
+  .fs_xl_13 {
+    font-size: 13px;
+  }
+
+  .fs_xl_14 {
+    font-size: 14px;
+  }
+
+  .fs_xl_15 {
+    font-size: 15px;
+  }
+
+  .fs_xl_16 {
+    font-size: 16px;
+  }
+
+  .fs_xl_17 {
+    font-size: 17px;
+  }
+
+  .fs_xl_18 {
+    font-size: 18px;
+  }
+
+  .fs_xl_19 {
+    font-size: 19px;
+  }
+
+  .fs_xl_20 {
+    font-size: 20px;
+  }
+
+  .fs_xl_21 {
+    font-size: 21px;
+  }
+
+  .fs_xl_22 {
+    font-size: 22px;
+  }
+
+  .fs_xl_23 {
+    font-size: 23px;
+  }
+
+  .fs_xl_24 {
+    font-size: 24px;
+  }
+
+  .fs_xl_25 {
+    font-size: 25px;
+  }
+
+  .fs_xl_26 {
+    font-size: 26px;
+  }
+
+  .fs_xl_27 {
+    font-size: 27px;
+  }
+
+  .fs_xl_28 {
+    font-size: 28px;
+  }
+
+  .fs_xl_29 {
+    font-size: 29px;
+  }
+
+  .fs_xl_30 {
+    font-size: 30px;
+  }
+
+  .fs_xl_31 {
+    font-size: 31px;
+  }
+
+  .fs_xl_32 {
+    font-size: 32px;
+  }
+
+  .fs_xl_33 {
+    font-size: 33px;
+  }
+
+  .fs_xl_34 {
+    font-size: 34px;
+  }
+  .fs_xl_38 {
+    font-size: 38px;
+  }
+
+  .fs_xl_40 {
+    font-size: 40px;
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+  .fs_lg_10 {
+    font-size: 10px;
+  }
+
+  .fs_lg_11 {
+    font-size: 11px;
+  }
+
+  .fs_lg_12 {
+    font-size: 12px;
+  }
+
+  .fs_lg_13 {
+    font-size: 13px;
+  }
+
+  .fs_lg_14 {
+    font-size: 14px;
+  }
+
+  .fs_lg_15 {
+    font-size: 15px;
+  }
+
+  .fs_lg_16 {
+    font-size: 16px;
+  }
+
+  .fs_lg_17 {
+    font-size: 17px;
+  }
+
+  .fs_lg_18 {
+    font-size: 18px;
+  }
+
+  .fs_lg_19 {
+    font-size: 19px;
+  }
+
+  .fs_lg_20 {
+    font-size: 20px;
+  }
+
+  .fs_lg_21 {
+    font-size: 21px;
+  }
+
+  .fs_lg_22 {
+    font-size: 22px;
+  }
+
+  .fs_lg_23 {
+    font-size: 23px;
+  }
+
+  .fs_lg_24 {
+    font-size: 24px;
+  }
+
+  .fs_lg_25 {
+    font-size: 25px;
+  }
+
+  .fs_lg_26 {
+    font-size: 26px;
+  }
+
+  .fs_lg_27 {
+    font-size: 27px;
+  }
+
+  .fs_lg_28 {
+    font-size: 28px;
+  }
+
+  .fs_lg_29 {
+    font-size: 29px;
+  }
+
+  .fs_lg_30 {
+    font-size: 30px;
+  }
+
+  .fs_lg_31 {
+    font-size: 31px;
+  }
+
+  .fs_lg_32 {
+    font-size: 32px;
+  }
+
+  .fs_lg_33 {
+    font-size: 33px;
+  }
+
+  .fs_lg_34 {
+    font-size: 34px;
+  }
+
+  .fs_lg_38 {
+    font-size: 38px;
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  .fs_md_10 {
+    font-size: 10px;
+  }
+
+  .fs_md_11 {
+    font-size: 11px;
+  }
+
+  .fs_md_12 {
+    font-size: 12px;
+  }
+
+  .fs_md_13 {
+    font-size: 13px;
+  }
+
+  .fs_md_14 {
+    font-size: 14px;
+  }
+
+  .fs_md_15 {
+    font-size: 15px;
+  }
+
+  .fs_md_16 {
+    font-size: 16px;
+  }
+
+  .fs_md_17 {
+    font-size: 17px;
+  }
+
+  .fs_md_18 {
+    font-size: 18px;
+  }
+
+  .fs_md_19 {
+    font-size: 19px;
+  }
+
+  .fs_md_20 {
+    font-size: 20px;
+  }
+
+  .fs_md_21 {
+    font-size: 21px;
+  }
+
+  .fs_md_22 {
+    font-size: 22px;
+  }
+
+  .fs_md_23 {
+    font-size: 23px;
+  }
+
+  .fs_md_24 {
+    font-size: 24px;
+  }
+
+  .fs_md_25 {
+    font-size: 25px;
+  }
+
+  .fs_md_26 {
+    font-size: 26px;
+  }
+
+  .fs_md_27 {
+    font-size: 27px;
+  }
+
+  .fs_md_28 {
+    font-size: 28px;
+  }
+
+  .fs_md_29 {
+    font-size: 29px;
+  }
+
+  .fs_md_30 {
+    font-size: 30px;
+  }
+
+  .fs_md_31 {
+    font-size: 31px;
+  }
+
+  .fs_md_32 {
+    font-size: 32px;
+  }
+
+  .fs_md_33 {
+    font-size: 33px;
+  }
+
+  .fs_md_34 {
+    font-size: 34px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .fs_sm_10 {
+    font-size: 10px;
+  }
+
+  .fs_sm_11 {
+    font-size: 11px;
+  }
+
+  .fs_sm_12 {
+    font-size: 12px;
+  }
+
+  .fs_sm_13 {
+    font-size: 13px;
+  }
+
+  .fs_sm_14 {
+    font-size: 14px;
+  }
+
+  .fs_sm_15 {
+    font-size: 15px;
+  }
+
+  .fs_sm_16 {
+    font-size: 16px;
+  }
+
+  .fs_sm_17 {
+    font-size: 17px;
+  }
+
+  .fs_sm_18 {
+    font-size: 18px;
+  }
+
+  .fs_sm_19 {
+    font-size: 19px;
+  }
+
+  .fs_sm_20 {
+    font-size: 20px;
+  }
+
+  .fs_sm_21 {
+    font-size: 21px;
+  }
+
+  .fs_sm_22 {
+    font-size: 22px;
+  }
+
+  .fs_sm_23 {
+    font-size: 23px;
+  }
+
+  .fs_sm_24 {
+    font-size: 24px;
+  }
+
+  .fs_sm_25 {
+    font-size: 25px;
+  }
+
+  .fs_sm_26 {
+    font-size: 26px;
+  }
+
+  .fs_sm_27 {
+    font-size: 27px;
+  }
+
+  .fs_sm_28 {
+    font-size: 28px;
+  }
+
+  .fs_sm_29 {
+    font-size: 29px;
+  }
+
+  .fs_sm_30 {
+    font-size: 30px;
+  }
+
+  .fs_sm_31 {
+    font-size: 31px;
+  }
+
+  .fs_sm_32 {
+    font-size: 32px;
+  }
+
+  .fs_sm_33 {
+    font-size: 33px;
+  }
+
+  .fs_sm_34 {
+    font-size: 34px;
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  .fs_xs_10 {
+    font-size: 10px;
+  }
+
+  .fs_xs_11 {
+    font-size: 11px;
+  }
+
+  .fs_xs_12 {
+    font-size: 12px;
+  }
+
+  .fs_xs_13 {
+    font-size: 13px;
+  }
+
+  .fs_xs_14 {
+    font-size: 14px;
+  }
+
+  .fs_xs_15 {
+    font-size: 15px;
+  }
+
+  .fs_xs_16 {
+    font-size: 16px;
+  }
+
+  .fs_xs_17 {
+    font-size: 17px;
+  }
+
+  .fs_xs_18 {
+    font-size: 18px;
+  }
+
+  .fs_xs_19 {
+    font-size: 19px;
+  }
+
+  .fs_xs_20 {
+    font-size: 20px;
+  }
+
+  .fs_xs_21 {
+    font-size: 21px;
+  }
+
+  .fs_xs_22 {
+    font-size: 22px;
+  }
+
+  .fs_xs_23 {
+    font-size: 23px;
+  }
+
+  .fs_xs_24 {
+    font-size: 24px;
+  }
+
+  .fs_xs_25 {
+    font-size: 25px;
+  }
+
+  .fs_xs_26 {
+    font-size: 26px;
+  }
+
+  .fs_xs_27 {
+    font-size: 27px;
+  }
+
+  .fs_xs_28 {
+    font-size: 28px;
+  }
+
+  .fs_xs_29 {
+    font-size: 29px;
+  }
+
+  .fs_xs_30 {
+    font-size: 30px;
+  }
+
+  .fs_xs_31 {
+    font-size: 31px;
+  }
+
+  .fs_xs_32 {
+    font-size: 32px;
+  }
+
+  .fs_xs_33 {
+    font-size: 33px;
+  }
+
+  .fs_xs_34 {
+    font-size: 34px;
+  }
+}

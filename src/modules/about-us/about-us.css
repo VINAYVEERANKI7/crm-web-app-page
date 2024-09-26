@@ -1,0 +1,60 @@
+.aboutus-main-container {
+  height: 51rem;
+  font-family: "Raleway", sans-serif;
+  background-image: linear-gradient(to right, #d0e5f5cc, #e8f6f7cc);
+}
+.aboutus-hero-section {
+  background-color: #ffffff75;
+  padding-left: 6rem;
+  padding-right: 6rem;
+  padding-top: 4.5rem;
+  padding-bottom: 4rem;
+  max-width: 80rem;
+}
+.aboutus-second-container {
+  /* height: 120vh; */
+  font-family: "Raleway", sans-serif;
+}
+.aboutus-ourTeam-section {
+  /* height: 90.1vh; */
+  font-family: "Raleway", sans-serif;
+}
+.founder-image {
+  width: 22vw;
+}
+@media only screen and (max-width: 1200px) {
+  .founder-image {
+    width: 30vw;
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  .aboutus-hero-section {
+    padding-left: 3rem;
+    padding-right: 3rem;
+    padding-top: 2.5rem;
+    padding-bottom: 2rem;
+    max-width: 80rem;
+  }
+  .aboutus-main-container {
+    height: 41rem;
+  }
+}
+@media only screen and (max-width: 576px) {
+  .aboutus-hero-section {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    padding-top: 1.5rem;
+    padding-bottom: 0rem;
+    max-width: 80rem;
+  }
+  .aboutus-main-container {
+    height: auto;
+  }
+  .about-icon {
+    height: 8rem;
+  }
+  .founder-image {
+    width: 42vw;
+  }
+}

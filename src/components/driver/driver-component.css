@@ -1,0 +1,35 @@
+.country-state-container {
+  background-color: #0f203c;
+}
+.join-line {
+  border-right: 2px solid #f0f0f0;
+}
+.small-conatiner {
+  max-width: 60rem;
+}
+.list-section-container {
+  height: 78rem;
+}
+.what-you-get-image {
+  width: 30vw;
+}
+.arrow-rotate {
+  rotate: 180deg;
+}
+
+@media only screen and (max-width: 1200px) {
+  .list-section-container {
+    height: auto;
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  .what-you-get-image {
+    width: 50vw;
+  }
+}
+@media only screen and (max-width: 576px) {
+  .steps-image {
+    width: 60%;
+  }
+}

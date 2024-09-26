@@ -1,0 +1,6 @@
+.success-modal-container {
+  max-width: 40rem;
+}
+.submit-btn:disabled {
+  opacity: 0.5;
+}
